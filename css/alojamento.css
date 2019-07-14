@@ -1,0 +1,16 @@
+figure {
+	position: relative;
+}
+figure img {
+	float: left;
+	border: solid 1px black;
+	margin: 5px;
+	box-shadow: 2px 2px 3px;
+}
+
+@media screen and (max-width:645px){
+	figure img {
+		width: 250px;
+		height: 138px;
+    }
+}

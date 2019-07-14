@@ -1,0 +1,31 @@
+/*=Begining Of Table Config=*/
+table {
+	border-spacing: 0px;
+	border-collapse:collapse;
+	margin: auto;
+}
+table thead th {
+    color: white;
+    border: 1px solid #000000;
+    background-color: #000000;
+    padding: 4px;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    width: 70px;
+}
+table tbody td {
+    border: 1px solid #000000;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+}
+/*===End Of Table Config====*/
+h3 {
+	text-align:center;
+}
+#2010-2011 {
+	
+}

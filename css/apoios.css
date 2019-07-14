@@ -1,0 +1,13 @@
+figure {
+	position: relative;
+	text-align:center;
+	vertical-align:middle;
+}
+figure.medium img {
+	max-width: 140px;
+	max-height: 140px;
+}
+figure.lower img {
+	max-width: 90px;
+	max-height: 90px;
+}

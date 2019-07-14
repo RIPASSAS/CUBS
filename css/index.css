@@ -1,0 +1,11 @@
+article #cartaz {
+	float: right;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+@media screen and (max-width:651px){
+	article #cartaz img {
+		width: 300px;
+		height: 445px;
+	}
+}

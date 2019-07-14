@@ -1,0 +1,21 @@
+table{
+	background-color:#F5F5F5;
+	border: 1px solid #A5B8DA;
+}
+td{
+	border: 1px solid #A5B8DA;
+}
+tr{
+	text-align:center;
+}
+th{
+	border: 1px solid #FFFFFF;
+	background-color:#A5B8DA;
+	padding:2px;
+	color:#FFFFFF;
+}
+#pro {
+	width: 234px;
+	text-align:center;
+	margin: auto;
+}

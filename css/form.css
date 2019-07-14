@@ -1,0 +1,68 @@
+body {
+font-family:Verdana, Geneva, sans-serif;
+font-size:12pt;
+}
+#form_content{
+	background-image: url('../img/htexture.jpg');
+	border:1px solid #A5B8DA;
+	width: 75%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:40px 6px 40px 5px;
+	box-shadow: 0 0 5px 2px #CCCCCC;
+	text-align:center;
+	margin: 15px auto 10px auto;
+	color: #191970;
+}
+form {
+	background-color:#FFF;
+	border:1px solid #A5B8DA;
+	width:100%;
+	text-align:center;
+	margin:auto;
+	color: #191970;
+	padding-top: 10px;
+}
+#inputNome{
+	width:300px;
+}
+#inputEmail{
+	width: 250px;
+}
+.input{
+	padding: 3px;
+    border: 1px solid #b9bdc1;
+    color: #797979;
+}
+input:focus{
+	 box-shadow: 0 0 3px 2px #a5b8da;
+}
+.button{
+    float: right; 
+    font-weight: bold;
+    line-height: 1;
+    padding: 6px 10px;
+    cursor:pointer;
+    color: #FFF;
+ 	margin-top:5px;
+    text-align: center;
+    text-shadow: 0 -1px 1px #64799e;
+    background: #a5b8da;
+    border: 1px solid #5c6f91;
+    border-radius: 10px;
+}
+/*==============*/
+/*MEDIA QUERIES*/
+/*==============*/
+@media screen and (max-width:928px){
+   #inputNome{
+	   width:170px;
+   }
+   #inputEmail{
+	   width: 170px;
+   }
+   #InputEntidade {
+	   width: 170px;
+   }
+}

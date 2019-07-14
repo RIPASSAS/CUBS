@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Efectuar Inscrição</title>
+		<meta name="description" content="Srurf Contest">
+		<meta name="author" content="Tiago &amp; Daniela">
+		
+		<link rel="stylesheet" type="text/css" href="css/geral.css">
+		<link rel="stylesheet" type="text/css" href="css/form.css">
+        
+	</head>
+
+	<body>
+	  	<header id="main_header">
+	  	  <div id="logo">
+	  	  	<a href="index.html"><object type="image/svg+xml" data="img/logo.svg"><img src="img/logo2.png" alt="Logotipo"/></object>
+		    <h1>CUBS</h1>
+		    </a>
+		  </div>
+		</header>
+		  <nav>
+			   <ul>
+			    	<li>
+			    		<a href="index.html">Notícias</a>
+			    	</li>
+			    	<li>
+			    		<a href="#">Sobre o CUBS</a>
+			    		<ul>
+			    			<li><a href="ambito.html">Âmbito</a></li>
+			    			<li><a href="organizacao.html">Organização</a></li>
+			    		</ul>
+			    	</li>
+			    	<li>
+			    		<a href="provas.html">Provas</a>
+			    	</li>
+			    	<li>
+			    		<a href="#">Classificações</a>
+			    		<ul>
+			    		    <li><a href="cla2013.html">2013</a></li>
+			    		    <li><a href="claea.html">Edições Anteriores</a></li>
+			    		</ul>
+			    	</li>
+			    	<li>
+			    		<a href="#">Inscrições</a>
+			    		<ul>
+			    			<li><a href="incricao.html">Efectuar Inscrição</a></li>
+			    			<li><a href="pacotes.html">Pacotes Disponíveis</a></li>
+			    			<li><a href="alojamento.html">Alojamento</a></li>
+			    			<li><a href="alimentacao.html">Alimentação</a></li>
+			    		</ul>
+			    	</li>
+			    	<li>
+			    		<a href="apoios.html">Apoios</a>
+			    	</li>
+			    	<li>
+			    		<a href="contactos.html">Contactos</a>
+			    	</li>
+			    </ul>
+		  </nav>
+		<div id="inner_frame">
+			<div id="content">
+              <article>
+              	<br />
+              	<div id="form_content">
+			<form action="http://www.dei.estg.ipleiria.pt/ucs/daw1/formaction.php" method="get">    
+				<label for="inputNome">Nome:</label>    
+				<input class="input" type="text" id="inputNome" name="Nome" required="required" />*
+				<br />
+				<br />
+				<label for="InputEntidade">Entidade Ensino Superior:</label>
+				<select class="input" name="Entidade" id="InputEntidade" required="required">
+					<option value="" disabled="disabled" selected="selected">- Por favor selecione uma opção -</option>  
+					<optgroup label="Institutos">
+						<option>Instituto Politécnico do Porto</option>   
+						<option>Instituto Superior de Engenharia de Lisboa</option>   
+						<option>Instituto Superior de Contabilidade e Administração de Lisboa</option>   
+						<option>Instituto Superior de Ciências da Saúde Egas Moniz</option>  
+						<option>Instituto Superior de Gestão</option>
+					</optgroup>  
+					<optgroup label="Universidades">   
+						<option>Universidade Nova de Lisboa</option>   
+						<option>Universidade do Minho</option>   
+						<option>Universidade de Évora</option>  
+						<option>Universidade Católica Portuguesa</option>
+						<option>Universidade de Coimbra</option>
+						</optgroup>  
+					<optgroup label="Mestrados">   
+						<option>Faculdade de Desporto da Universidade do Porto</option>   
+						<option>Faculdade Economia do Porto</option> 
+						<option>Faculdade de Motricidade Humana</option>						 
+					</optgroup>
+					<optgroup label="Outro">
+						<option>Outro</option>
+					</optgroup>
+				</select>*
+				<br />
+				<label for="inputOutro">Outro escreva:</label>
+				<input class="input" type="text" id="inputOutro" name="Outro">
+				<br />
+				<br />
+				<label for="inputSexo">Sexo:</label>
+				<label for"V1">M</label><input type="radio" name="Sexo" value="M" checked required="required">   
+				<label for"V2">F</label><input type="radio" name="Sexo" value="F">*
+				<br />
+				<br />
+				<label for="inputNome">Categoria:</label>    
+				<select class="input" name="TipoCategoria" required="required">
+					<option value="" disabled="disabled" selected="selected">- Escolha a categoria -</option>       
+					<option>Bodyboard Open</option>       
+					<option>Bodyboard Feminino</option>  
+					<option>Surf Open</option>  
+					<option>Surf Feminino</option>   
+				</select>*
+				<br />
+				<br />
+				<label for="inputData">Data de Nascimento:</label>  
+				<input class="input" type="date" id="inputData" name="Data" required="required" />*
+				<br />
+				<br />
+				<label for="inputTelefone">Telefone:</label>
+				<input class="input" type="tel" id="inputTelefone" name="Telefone" required="required" />*
+				<br />
+				<br />
+				<label for="inputEmail">Email:</label>
+				<input class="input" type="email" id="inputEmail" name="Email" placeholder="email@email.com" required="required" />* 
+				<br />
+				<br />
+				<label for="inputPacote">Pacote:</label>
+				<select class="input" name="TipoPacote" required="required">
+					<option value="" disabled="disabled" selected="selected">- Escolha o pacote -</option>       
+					<option>Pacote 1</option>       
+					<option>Pacote 2</option>  
+					<option>Pacote 3</option>  
+					<option>Pacote 4</option>   
+				</select>*
+				<p>Para ver os pacotes disponíveis clique <a href="pacotes.html" target="_blank">aqui</a>.</p>
+				<p>Para informações acerca do alojamento clique <a href="alojamento.html" target="_blank">aqui</a>.</p>
+				<p>Para informações acerca dos planos de alimentação clique <a href="alimentacao.html" target="_blank">aqui</a>.</p>
+				<p>Os campos marcados com * são obrigatórios.</p>
+				<input type="reset" class="button" value="Limpar"> 
+				<input type="submit" name="Submit"  class="button" value="Submit" /> 
+			</form> 
+		</div>
+              	<footer>
+              		<hr />
+              	</footer>
+              	<br />
+              </article>
+			</div>
+		</div>
+		<footer id="main_footer">
+			<div id="wrapper_footer">
+			  <div id="copy">&copy; Copyright by Tiago Martins | Daniela Dinis</div>
+			  <div id="social">
+			     <a href="http://www.facebook.com/profile.php?id=203380633016315"><img src="img/facebook.png" alt="Facebook"/></a>
+			     <a href="http://twitter.com/cubs_estm"><img src="img/twitter.png" alt="Twitter"/></a>
+			     <a href="http://www.vimeo.com/cubs"><img src="img/vimeo.png" alt="Vimeo"/></a>
+			     <a href="http://youtube.com/CUBSPeniche"><img src="img/youtube.png" alt="Youtube"/></a>
+			  </div>
+			</div>
+		</footer>
+	</body>
+</html>

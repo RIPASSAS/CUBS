@@ -1,0 +1,41 @@
+/*=Begining Of Table Config=*/
+table {
+	border-spacing: 0px;
+	border-collapse:separate;
+	overflow: hidden;
+	margin: auto;
+}
+table thead th {
+    color: white;
+    background-color: #000000;
+    padding: 4px;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    width: 70px;
+}
+table tbody td {
+    border: 1px solid #000000;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+}
+table tbody td.info {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    color: white;
+    height: 48px;
+    width: 100px;
+}
+table thead th:first-child {
+    border-radius: 26px 0 0 0;
+}
+
+table tbody td.last {
+    border-radius: 0 0 26px 0;
+}
+
+/*===End Of Table Config====*/
